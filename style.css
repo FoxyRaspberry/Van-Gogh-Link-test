@@ -664,11 +664,6 @@ body {
 }
 
 @media (width < 576px) {
-    .about-company__title {
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-
     .about-company__info {
         flex-direction: column;
     }
