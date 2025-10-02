@@ -10,6 +10,29 @@ body {
     color: #333;
 }
 
+.wrapper {
+    margin: auto;
+    width: 1440px;
+}
+
+@media (width <= 1440px) {
+    .wrapper {
+        width: 1160px;
+    }
+}
+
+@media (width <= 1160px) {
+    .wrapper {
+        width: 768px;
+    }
+}
+
+@media (width <= 768px) {
+    .wrapper {
+        width: 360px;
+    }
+}
+
 .header {
     background-color: #ffffff;
     color: #272A33;

@@ -1,151 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Van Gogh-Link test</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Van Gogh-Link test</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
+
 <body>
+  <div class="wrapper">
     <header class="header">
-    <div class="header__logo">
+      <div class="header__logo">
         <img class="header__logo-text" src="images/logo.webp" loading="lazy">
-    </div>
-    <nav class="nav">
+      </div>
+      <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Оплата и доставка</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Оплата и доставка</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
         </ul>
         <button class="nav__burger" aria-label="Меню">
-            <span class="nav__burger-line"></span>
-            <span class="nav__burger-line"></span>
-            <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
         </button>
-    </nav>
-</header>
+      </nav>
+    </header>
+  </div>
 
-    <section class="recommended">
-        <h2 class="recommended__title">Рекомендуемое оборудование</h2>
-        <div class="recommended__product-list-container">
-          <div class="recommended__product-list">
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-1.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">В наличии 50 м.</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
+  <section class="recommended">
+    <div class="wrapper">
+      <h2 class="recommended__title">Рекомендуемое оборудование</h2>
+      <div class="recommended__product-list-container">
+        <div class="recommended__product-list">
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-1.webp" loading="lazy" alt="product" class="recommended__product-image">
+            </div>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">В наличии 50 м.</span>
               </div>
-
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-2.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Стальной канат для лифта GRS 8X19S-NFC 1570</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">В наличии 50 м.</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
-              </div>
-
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-3.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Стальной канат для лифта GRS 8X19W-CWC 1570</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">В наличии 50 м.</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
-              </div>
+              <button class="recommended__product-button">Подробнее</button>
+            </div>
           </div>
 
-          <div class="recommended__product-list">
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-4.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Плоский тяговый ремень для лифта GRS AAA717X1 (12 кордов)</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 302.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">Под заказ</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-2.webp" loading="lazy" alt="product" class="recommended__product-image">
+            </div>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Стальной канат для лифта GRS 8X19S-NFC 1570</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">В наличии 50 м.</span>
               </div>
+              <button class="recommended__product-button">Подробнее</button>
+            </div>
+          </div>
 
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-1.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">В наличии 50 м.</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-3.webp" loading="lazy" alt="product" class="recommended__product-image">
+            </div>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Стальной канат для лифта GRS 8X19W-CWC 1570</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">В наличии 50 м.</span>
               </div>
-
-              <div class="recommended__product-item">
-                  <div class="recommended__product-container-image">
-                    <img src="images/pic-4.webp" loading="lazy" alt="product" class="recommended__product-image">
-                  </div>
-                  <div class="recommended__product-item-description">
-                    <p class="recommended__product-name">Купить плоский тяговый ремень для лифта GRS AAA717AJ1(8 кордов)</p>
-                    <div class="recommended__product-description-availability">
-                      <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
-                      <span class="recommended__product-availability">В наличии 50 м.</span>
-                    </div>
-                    <button class="recommended__product-button">Подробнее</button>
-                  </div>
-              </div>
+              <button class="recommended__product-button">Подробнее</button>
+            </div>
           </div>
         </div>
-        <button class="recommended__product-button-list">Перейти в каталог</button>
-    </section>
 
-    <section class="about-company">
-        <h2 class="about-company__title">О компании</h2>
-        <div class="about-company__info">
-            <div class="about-company__image">
-              <div class="about-company__big-image">  
-                <img src="images/image 36.png" alt="company" loading="lazy" class="about-company__image-img">
-              </div>
-              <div class="about-company__small-image">  
-                <img src="images/image.png" alt="company" loading="lazy" class="about-company__small-image-img">
-                <img src="images/image (1).png" alt="company" loading="lazy" class="about-company__small-image-img">
-              </div>
+        <div class="recommended__product-list">
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-4.webp" loading="lazy" alt="product" class="recommended__product-image">
             </div>
-            <div class="about-company__text">
-                <p class="about-company__title-description">Компания «SPARTSPRO» специализируется на поставках лифтового оборудования, комплектующих и запчастей для лифтов и эскалаторов ведущих мировых и российских производителей.</p>
-                <ul class="about-company__list-description">
-                  <li class="about-company__list-item-description"><img src="images/Frame 302.png" class="about-company__list-item-img" alt="">Гарантия качества – работаем только с проверенными производителями.</li>
-                  <li class="about-company__list-item-description"><img src="images/Frame 302.png" class="about-company__list-item-img" alt="">Собственный склад – более 30 000 наименований в наличии для оперативных отгрузок.</li>
-                  <li class="about-company__list-item-description"><img src="images/Frame 302.png" class="about-company__list-item-img" alt="">Соблюдение сроков – приоритет компании: быстрая обработка заказов и доставка без задержек.</li>
-                </ul>
-                <p class="about-company__description">Мы обеспечиваем бесперебойные поставки для ваших проектов. Оставьте заявку – и получите коммерческое предложение в кратчайшие сроки!</p>
-                <a href="#" class="about-company__button">Подробнее</a>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Плоский тяговый ремень для лифта GRS AAA717X1 (12 кордов)</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 302.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">Под заказ</span>
+              </div>
+              <button class="recommended__product-button">Подробнее</button>
             </div>
+          </div>
+
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-1.webp" loading="lazy" alt="product" class="recommended__product-image">
+            </div>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">В наличии 50 м.</span>
+              </div>
+              <button class="recommended__product-button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="recommended__product-item">
+            <div class="recommended__product-container-image">
+              <img src="images/pic-4.webp" loading="lazy" alt="product" class="recommended__product-image">
+            </div>
+            <div class="recommended__product-item-description">
+              <p class="recommended__product-name">Купить плоский тяговый ремень для лифта GRS AAA717AJ1(8 кордов)</p>
+              <div class="recommended__product-description-availability">
+                <img src="images/Frame 301.png" class="recommended__product-availability-img" loading="lazy" alt="">
+                <span class="recommended__product-availability">В наличии 50 м.</span>
+              </div>
+              <button class="recommended__product-button">Подробнее</button>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+      <button class="recommended__product-button-list">Перейти в каталог</button>
+    </div>
+  </section>
+
+  <section class="about-company">
+    <div class="wrapper">
+      <h2 class="about-company__title">О компании</h2>
+      <div class="about-company__info">
+        <div class="about-company__image">
+          <div class="about-company__big-image">
+            <img src="images/image 36.png" alt="company" loading="lazy" class="about-company__image-img">
+          </div>
+          <div class="about-company__small-image">
+            <img src="images/image.png" alt="company" loading="lazy" class="about-company__small-image-img">
+            <img src="images/image (1).png" alt="company" loading="lazy" class="about-company__small-image-img">
+          </div>
+        </div>
+        <div class="about-company__text">
+          <p class="about-company__title-description">Компания «SPARTSPRO» специализируется на поставках лифтового
+            оборудования, комплектующих и запчастей для лифтов и эскалаторов ведущих мировых и российских
+            производителей.
+          </p>
+          <ul class="about-company__list-description">
+            <li class="about-company__list-item-description"><img src="images/Frame 302.png"
+                class="about-company__list-item-img" alt="">Гарантия качества – работаем только с проверенными
+              производителями.</li>
+            <li class="about-company__list-item-description"><img src="images/Frame 302.png"
+                class="about-company__list-item-img" alt="">Собственный склад – более 30 000 наименований в наличии для
+              оперативных отгрузок.</li>
+            <li class="about-company__list-item-description"><img src="images/Frame 302.png"
+                class="about-company__list-item-img" alt="">Соблюдение сроков – приоритет компании: быстрая обработка
+              заказов и доставка без задержек.</li>
+          </ul>
+          <p class="about-company__description">Мы обеспечиваем бесперебойные поставки для ваших проектов. Оставьте
+            заявку
+            – и получите коммерческое предложение в кратчайшие сроки!</p>
+          <a href="#" class="about-company__button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
+
 </html>
