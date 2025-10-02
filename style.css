@@ -453,19 +453,18 @@ body {
 }
 
 .about-company__big-image {
-    max-width: 100%;
-    border-radius: 8px;
+    padding-bottom: 30px;
 }
 
 .about-company__image-img {
+    display: block;
     width: 705px;
 }
 
 .about-company__small-image {
-    max-width: 50%;
     border-radius: 8px;
     display: flex;
-    gap: 33px;
+    justify-content: space-between;
 }
 
 .about-company__small-image-img {
@@ -536,12 +535,12 @@ body {
         padding: 80px 0 50px;
     }
 
-    .about-company__image-img {
-        width: 565px;
+    .about-company__big-image {
+        padding-bottom: 24px;
     }
 
-    .about-company__small-image {
-        gap: 26px;
+    .about-company__image-img {
+        width: 565px;
     }
 
     .about-company__small-image-img {
@@ -563,17 +562,11 @@ body {
     }
 
     .about-company__big-image {
-        max-width: 100%;
-        border-radius: 8px;
+        padding-bottom: 32px;
     }
 
     .about-company__image-img {
         width: 768px;
-    }
-
-    .about-company__small-image {
-        max-width: 100%;
-        gap: 35px;
     }
 
     .about-company__small-image-img {
@@ -583,7 +576,6 @@ body {
     .about-company__text {
         max-width: 100%;
     }
-
 }
 
 @media (width < 1160px) {
@@ -596,18 +588,11 @@ body {
     }
 
     .about-company__big-image {
-        max-width: 100%;
-        border-radius: 8px;
+        padding-bottom: 24px;
     }
 
     .about-company__image-img {
         width: 576px;
-    }
-
-    .about-company__small-image {
-        max-width: 100%;
-        gap: 26px;
-
     }
 
     .about-company__small-image-img {
@@ -635,17 +620,11 @@ body {
     }
 
     .about-company__big-image {
-        max-width: 100%;
-        border-radius: 8px;
+        padding-bottom: 15px;
     }
 
     .about-company__image-img {
         width: 360px;
-    }
-
-    .about-company__small-image {
-        max-width: 100%;
-        gap: 16px;
     }
 
     .about-company__small-image-img {
@@ -662,18 +641,8 @@ body {
         white-space: wrap;
     }
 
-    .about-company__big-image {
-        max-width: 100%;
-        border-radius: 8px;
-    }
-
     .about-company__image-img {
         width: 360px;
-    }
-
-    .about-company__small-image {
-        max-width: 100%;
-        gap: 16px;
     }
 
     .about-company__small-image-img {
