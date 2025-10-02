@@ -591,10 +591,6 @@ body {
         font-size: 20px;
     }
 
-    .about-company__info {
-        flex-direction: column;
-    }
-
     .about-company__list-item-description {
         white-space: wrap;
     }
@@ -631,7 +627,7 @@ body {
     }
 
     .about-company__info {
-        flex-direction: column;
+        gap: 20px;
     }
 
     .about-company__list-item-description {
@@ -659,15 +655,9 @@ body {
     .about-company__text {
         max-width: 100%;
     }
-
-
 }
 
 @media (width < 576px) {
-    .about-company__info {
-        flex-direction: column;
-    }
-
     .about-company__list-item-description {
         white-space: wrap;
     }
