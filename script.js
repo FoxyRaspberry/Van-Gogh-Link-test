@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const [burger] = document.getElementsByClassName('nav__burger');
-    const [navList] = document.getElementsByClassName('nav__list');
+    const [navListWrapper] = document.getElementsByClassName('nav__list-wrapper');
 
     burger.addEventListener('click', () => {
-        navList.classList.toggle('nav__list--open');
+        navListWrapper.classList.toggle('nav__list-wrapper--open');
     });
 });
