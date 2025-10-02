@@ -1,8 +1,11 @@
-/* Основные стили */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.util-overflow-hidden {
+    overflow: hidden;
 }
 
 body {

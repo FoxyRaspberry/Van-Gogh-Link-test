@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     burger.addEventListener('click', () => {
         navListWrapper.classList.toggle('nav__list-wrapper--open');
+        document.body.classList.toggle('util-overflow-hidden');
     });
 });
